@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        body {
+            background: #f2f2f2;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #menu,
+        #drinks {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 170px;
+        }
+
+        .expensive {
+            border: 2px solid red;
+        }
+
+        .cheap {
+            border: 2px solid green;
+        }
+
+        #total {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <h1>Меню школьной столовой</h1>
+
+    <h2>Блюда</h2>
+    <div id="menu"></div>
+
+    <p id="total"></p>
+
+    <h2>Напитки</h2>
+    <div id="drinks"></div>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
